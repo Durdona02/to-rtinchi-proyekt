@@ -1,113 +1,74 @@
 body{
-    background-image:linear-gradient(blue, rgb(207, 92, 142));
-    height: 100%;
+    background-color: aquamarine;
 }
-.box1{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( red 50%, white 50%);
+div{
+    background-color: rgb(245, 56, 166); 
+    border: 2px solid red;
+    width: 370px;
+    font-size: 20px;
+    margin: auto;
+    padding: 25px;
+}
+img{
+    border: 2px solid rgb(34, 78, 53);
+    padding: 10px;
+}
+h2{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+p{
+    color: rgb(47, 255, 68);
+    font-weight: bold;
 }
 button{
-    font-size:bold;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background-color:red ;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid white;
+    width: 220px;
+    height: 60px;
+    transition: 0.5s;
 }
-.box2{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( red 25%,rgb(60, 60, 136) 25%,rgb(60, 60, 144) 50%, yellow 50%, yellow 75%, green 75%);
+button:hover{
+    background-color: yellow;
+    color: black;
 }
-.box3{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( red 17%,white 17%,white 34%,rgb(60, 60, 150) 34%, rgb(62, 62, 147) 66%, white 66%,white 83%, red 83%);
+body:hover div{
+    background-color:mediumseagreen;
+    border:2px solid green;
 }
-.box4{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( 90deg, green 34%, white 34%, white 66%,green 66%);
+body:hover h2{
+    background-color: brown;
+    color: goldenrod;
 }
-.box5{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( 90deg, black 34%, yellow 34%, yellow 66%,red 66%); 
+body:hover p{
+    background-color: bisque;
+    color: mediumblue;
 }
-.box6{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( black 34%, red 34%, red 66%, yellow 66%);
+body:hover button{
+    background-color: blue;
+    color: black;
+    border: 5px solid black;
 }
-.box7{
-    width: 0px;
-    border-top: 150px solid transparent;
-    border-bottom: 150px solid transparent;
-    border-left: 150px solid blue; 
-    border-right: 150px solid transparent;
+div:hover h2{
+    background-color: rgb(105, 18, 220);
+    color: rgb(0, 205, 14);
 }
-.box8{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient(  white 50%, red 50%);
+div:hover p{
+    background-color: rgb(172, 169, 199);
+    color: rgb(178, 218, 32);
 }
-.box9{
-    width: 0px;
-    border-top: 150px solid transparent;
-    border-bottom: 150px solid transparent;
-    border-left: 150px solid red; 
-    border-right: 150px solid transparent;
+div:hover button{
+    background-color: rgb(148, 21, 65);
+    color: rgb(30, 170, 14);
+    border: 5px solid rgb(42, 10, 110);
 }
-.box10{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( black 34%, white 34% , white 66%, green 66%); 
-}
-.box11{
-    width: 0px;
-    border-top: 150px solid transparent;
-    border-bottom: 150px solid transparent;
-    border-left: 150px solid red; 
-    border-right: 150px solid transparent;
-}
-.box12{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( rgb(60, 60, 150) 20%,white 20%,white 40%,rgb(60, 60, 150) 40%, rgb(60, 60, 150) 60%, white 60%,white 80%, rgb(60, 60, 150) 80%);
-}
-.box13{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient(145deg, green 35%, yellow 35%,yellow 38%, black 38%, black 62%,yellow 62%, yellow 65%, red 65%);
-}
-.box14{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient(145deg, aqua 36%, yellow 36%,yellow 39%, red 39%, red 61%,yellow 61%, yellow 64%, aqua 64%);
-}
-.box15{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient(red 35%, white 35%,white 38%, blue 38%, blue 62%,white 62%, white 65%, green 65%);
-}
-.box16{
-    width: 0px;
-    border-top: 150px solid transparent;
-    border-bottom: 150px solid transparent;
-    border-left: 150px solid black; 
-    border-right: 150px solid transparent;
-}
-.box17{
-    margin-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient( aqua 34%, yellow 34% , yellow 66%, aqua 66%); 
-}
+
+    
+
+ 
